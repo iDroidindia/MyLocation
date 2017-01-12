@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Monument Survey App</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="splash_tv_txt">Survey App</string>
+    <string name="splash_tv_punch_txt">Monument Survey App</string>
+
+</resources>

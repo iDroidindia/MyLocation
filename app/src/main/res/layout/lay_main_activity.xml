@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/amberfort">
+
+    <com.flaviofaria.kenburnsview.KenBurnsView
+        android:id="@+id/iv_splash_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/amberfort" />
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/splash_scr_logo_image_bg_style"
+        android:padding="10dp"
+        android:src="@drawable/app_logo"
+        android:foregroundGravity="center"/>
+
+
+    <!-- <TextView-->
+    <test_app.pro.mylocation.mylocation.CustomFontTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_logo"
+        android:gravity="center"
+        android:text="@string/splash_tv_txt"
+        android:textColor="@color/tv_splash_txt_color"
+        android:textSize="30sp"
+        android:id="@+id/welcome_txt"
+        android:layout_marginTop="20dp" />
+
+
+    <!-- <TextView-->
+    <test_app.pro.mylocation.mylocation.CustomFontTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome_txt"
+        android:gravity="center"
+        android:text="@string/splash_tv_punch_txt"
+        android:textColor="@color/tv_splash_txt_color"
+        android:textSize="30sp"
+        android:id="@+id/about_us"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>

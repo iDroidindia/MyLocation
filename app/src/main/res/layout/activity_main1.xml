@@ -1,0 +1,86 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Old_MainActivity">
+
+    <ImageView
+        android:id="@+id/image_1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/amberfort"
+        android:alpha="0.5"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/image_2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        android:alpha="0.5"
+        android:src="@drawable/syria_girl"
+        android:layout_gravity="center"/>
+
+   <!-- <Button
+        android:id="@+id/kenburnsbt1"
+        android:layout_width="160sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:text="View History"
+        android:padding="20sp"/> -->
+
+
+   <!-- <Button
+        android:id="@+id/kenburnsbt2"
+        android:layout_width="160sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:text="Submit Response"
+        android:padding="20sp"/> -->
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <!-- <Button-->
+        <test_app.pro.mylocation.mylocation.CustomFontButton
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="View History"
+            android:drawablePadding="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textSize="18sp"
+            android:background="@drawable/register_scr_bt_submit_style"
+            android:textColor="@color/bt_txt_color_p1"
+            android:id="@+id/kenburnsbt1"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- <Button-->
+        <test_app.pro.mylocation.mylocation.CustomFontButton
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit Response"
+            android:layout_gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:drawablePadding="10dp"
+            android:textSize="18sp"
+            android:background="@drawable/register_scr_bt_submit_style"
+            android:textColor="@color/bt_txt_color_p1"
+            android:id="@+id/kenburnsbt2" />
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

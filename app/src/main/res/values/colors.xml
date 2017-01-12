@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tv_splash_txt_color">#ffffff</color>
+    <color name="bt_color_p1">#FF0000</color>
+    <color name="bt_txt_color_p1">#ffffff</color>
+    <color name="holo_light_primary_dark">#b74141</color>
+    <color name="bright_foreground_holo_light">#8e2d2d</color>
+</resources>

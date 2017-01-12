@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:gravity="center">
+
+    <!-- <TextView-->
+    <test_app.pro.mylocation.mylocation.CustomFontTextView_Bold
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD DESCRIPTION"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="5">
+
+        <!-- <TextView-->
+        <test_app.pro.mylocation.mylocation.CustomFontTextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:textColor="#000000"
+            android:text="Enter location Name"
+            android:layout_gravity="left"
+            android:gravity="center"/>
+
+        <!-- <EditText-->
+        <test_app.pro.mylocation.mylocation.CustomFontEditText
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:id="@+id/et5"
+            android:textColor="#000000"
+            android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="5">
+        <!-- <TextView-->
+        <test_app.pro.mylocation.mylocation.CustomFontTextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:textColor="#000000"
+            android:text="Enter Location Description"
+            android:gravity="center"
+            android:layout_gravity="left"/>
+        <!-- <EditText-->
+        <test_app.pro.mylocation.mylocation.CustomFontEditText
+            android:inputType="textMultiLine"
+            android:textColor="#000000"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:id="@+id/et6"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="12">
+
+        <!-- <Button-->
+        <test_app.pro.mylocation.mylocation.CustomFontButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffffff"
+            android:text="Submit"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:background="@drawable/register_scr_bt_submit_style"
+            android:id="@+id/btintentAct"/>
+
+
+
+
+    </LinearLayout>
+</LinearLayout>
